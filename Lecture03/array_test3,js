@@ -1,0 +1,8 @@
+const guests = ['Alice', 'Bob', 'Chatlie', 'David'];
+
+let index = 0;
+while (index < guests.length) {
+    const name = guests[index];
+    console.log(name);
+    index++;
+}
